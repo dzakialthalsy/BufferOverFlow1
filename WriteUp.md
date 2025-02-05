@@ -124,6 +124,8 @@ but, the flag still doesn't show up.
 
 so, i write a script to exploit this
 
+    #!/usr/bin/env python3
+    
     import argparse
     import socket
     import struct
