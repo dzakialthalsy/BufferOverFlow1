@@ -72,9 +72,9 @@ first the BUFSIZE, from it we can consider that the offset maybe 32 or even more
 
 from these three functions, we can know that:
 -  function win() is the function that will give us the flag
--  vuln() function seems there's an interesting one, '''
+-  vuln() function seems there's an interesting one
 
-       gets(buf); '''.  that's where the we will get the buffer
+       gets(buf);.  that's where the we will get the buffer
    
 -  main() function we can know that is call vuln() function after we input a value
 -  the end, we know that we can get the buffer by entering some payload while inputing the value
